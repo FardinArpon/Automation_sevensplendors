@@ -8,7 +8,7 @@ Test web and mobile based software application Automation.
 - Build tool: Gradle
 - Language: Java
 - Test_Runner: TestNG
-- Page Object Model
+- Page Object Model.
 
 ## Prerequisite:
 1. Need to install jdk 1.8
@@ -22,7 +22,7 @@ Test web and mobile based software application Automation.
 gradle clean test
 ```
 3. Selenium will open the browser and start automation.
-4. To view report
+4. To view report and genarate report
 ```sh
 ```
 ## Report View & Screen Rec.

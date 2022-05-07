@@ -1,7 +1,12 @@
 <suite thread-count="1" verbose="1" name="Automation task of Brain Station 23">
-    <test name = "Registration process for 2 users">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Registration process for 2 users">
         <classes>
             <class name="testrunner.LoginTestRunner"/>
         </classes>
     </test>
 </suite>
+
